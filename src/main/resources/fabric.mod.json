@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "fpmem",
+  "version": "${version}",
+  "name": "FabricPlusMCDREqualMagic",
+  "description": "Fabric + MCDR = Magic",
+  "authors": [
+    "Huaji_MUR233"
+  ],
+  "license": "MPL-2.0",
+  "icon": "assets/fpmem/icon.png",
+  "environment": "server",
+  "entrypoints": {
+  },
+  "mixins": [
+    "fpmem.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.19",
+    "java": ">=17"
+  }
+}
